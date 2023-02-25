@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster Two', cursive;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* nav part start  */
+nav {
+    color: transparent;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 50%;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.component2 ul li a {
+    background-color: #0072ff;
+    color: rgb(255, 252, 252);
+    border-radius: 40%;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: -60px;
+    box-shadow: 0px 0px 36px -11px rgba(0, 0, 0, 0.1);
+
+}
+
+.image3 img {
+
+    height: 90px;
+    width: 102px;
+    margin-top: -50px;
+    margin-left: 20%;
+}
+
+/* nav part end */
+
+/* homepage part start */
+.homepage {
+    background-image: url(https://images6.alphacoders.com/639/639668.jpg);
+    margin-top: -100px;
+    height: 100%;
+}
+
+.homepage h1,
+p {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.homepage h1 {
+    padding-top: 20%;
+}
+
+.homepage p1 {
+    margin: 0 31%;
+    font-size: 30px;
+    color: azure;
+}
+
+
+
+
+/* homepage part end */
+
+/* service part start */
+.service h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.service p2 {
+    margin-left: 40%;
+}
+
+.ourservice {
+    display: flex;
+
+}
+
+.myservice2 {
+    height: 242px;
+    width: 430px;
+    margin-left: 8%;
+    margin-top: -20px;
+    text-align: justify;
+
+}
+
+.myservice2 h1,
+p {
+    text-align: justify;
+    box-shadow: 0px 0px 55px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.myservice2 h1 {
+    color: rgb(255, 166, 0);
+
+}
+
+.myservice2 p {
+    text-align: justify;
+    font-size: 25px;
+    margin: 0 0%;
+    color: black;
+}
+
+/* service part end  */
+
+/* <!-- protofilo part start --> */
+.protofilo h1 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.protofilo p3 {
+    margin-left: 42%;
+}
+
+.mynab {
+    display: flex;
+}
+
+.anothernav ul {
+    display: flex;
+    margin-left: 33%;
+    background-color: #10bdff;
+    width: 677px;
+    height: 40px;
+    border-radius: 10%;
+    border: solid 1px;
+    margin-top: 20px;
+}
+
+.anothernav ul li {
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.anothernav ul li a {
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.aboutprotofilo {
+    display: flex;
+    margin-left: 350px;
+}
+
+.myprofilo2 img {
+    display: line;
+    height: 300px;
+    width: 355px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.anothernav ul li a:hover {
+    color: red;
+    background-color: #ffffff;
+}
+
+/* <!-- protofilo part end --> */
+
+/* articles part start */
+.articles h1,
+p {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.articles p {
+    margin: 0 0;
+    background-color: #ffffff;
+}
+
+.orap {
+    display: flex;
+}
+
+.arpera {
+    height: 242px;
+    width: 430px;
+    margin-left: 8%;
+    margin-top: 20px;
+    text-align: justify;
+
+}
+
+.arpera p,
+img {
+    text-align: justify;
+    box-shadow: 0px 0px 55px 12px rgba(0, 0, 0, 0.1);
+    color: black;
+
+
+}
+
+.arpera p {
+    text-align: justify;
+    font-size: 25px;
+    margin: 0 0%;
+}
+
+.arpera img {
+    height: 301px;
+    width: 428px;
+}
+
+.arpera a {
+    text-decoration: none;
+}
+
+/* articles part end */
+
+/* testimonial part star */
+.testimonial h1 {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.testimoni {
+    display: flex;
+    margin-left: 5%;
+}
+
+.testi {
+    margin-left: 20%;
+}
+
+.t01 {
+    display: flex;
+    font-size: 20px;
+}
+
+.t01 img,
+h5 {
+    margin-left: 30px;
+}
+
+.t01 img {
+    width: 77px;
+    height: 78px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.t01 h5 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.testi01 p5 {
+    display: inline-block;
+    color: black;
+    height: 126px;
+    width: 287px;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.testi01 {
+    box-shadow: 0px 0px 55px 12px rgba(0, 0, 0, 0.1);
+    margin-left: 10%;
+}
+
+.t02 {
+    display: flex;
+    font-size: 20px;
+}
+
+.t02 img,
+h6 {
+    margin-left: 30px;
+}
+
+.t02 img {
+    width: 77px;
+    height: 78px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.t02 h6 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.testi02 p6 {
+    display: inline-block;
+    color: black;
+    height: 126px;
+    width: 287px;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.testi02 {
+    box-shadow: 0px 0px 55px 12px rgba(0, 0, 0, 0.1);
+    margin-left: 15%;
+}
+
+.t02 {
+    display: flex;
+    font-size: 20px;
+}
+
+.t02 img,
+h6 {
+    margin-left: 30px;
+}
+
+.t02 img {
+    width: 77px;
+    height: 78px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.t02 h6 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.testi02 p6 {
+    display: inline-block;
+    color: black;
+    height: 126px;
+    width: 287px;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.testi02 {
+    box-shadow: 0px 0px 55px 12px rgba(0, 0, 0, 0.1);
+    margin-left: 15%;
+}
+
+.t02 {
+    display: flex;
+    font-size: 20px;
+}
+
+.t02 img,
+h6 {
+    margin-left: 30px;
+}
+
+.t02 img {
+    width: 77px;
+    height: 78px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.t02 h6 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.testi02 p6 {
+    display: inline-block;
+    color: black;
+    height: 126px;
+    width: 287px;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.testi02 {
+    box-shadow: 0px 0px 55px 12px rgba(0, 0, 0, 0.1);
+    margin-left: 15%;
+}
+
+.t03 {
+    display: flex;
+    font-size: 20px;
+}
+
+.t03 img,
+h6 {
+    margin-left: 30px;
+}
+
+.t03 img {
+    width: 77px;
+    height: 78px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+.t03 h7 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.testi03 p7 {
+    display: inline-block;
+    color: black;
+    height: 126px;
+    width: 287px;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.testi03 {
+    box-shadow: 0px 0px 55px 12px rgba(0, 0, 0, 0.1);
+    margin-left: 15%;
+}
+
+/* testimonial part end */
+
+/* last email part start */
+.right {
+    background-image: url(https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_night_198337_1920x1080.jpg);
+    height: 350px;
+    margin-top: 50px;
+}
+.right{
+    display: flex;
+}
+.list{
+   padding-top: 60px;
+    margin-left: 35%;
+    color: #ff0000;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.list a{
+    text-decoration: none;
+    color: #ff0303;
+    font-size: 20px;
+}
+.l01 a{
+    text-decoration: none;
+    color: #ff0303;
+    font-size: 20px;   
+}
+.l02 a{
+    text-decoration: none;
+    color: #ff0303;
+    font-size: 20px; 
+}
+.list2{
+    padding-top: 60px;
+    margin-left: 10%;
+    color: #ff0000;
+    font-size: 20px;
+    
+}
+.list2 form{
+    text-decoration: underline;
+}
+/* last email part end */
