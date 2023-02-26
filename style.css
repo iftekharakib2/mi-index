@@ -179,7 +179,7 @@ p {
     display: line;
     height: 300px;
     width: 355px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 10px;
 }
 
@@ -191,18 +191,15 @@ p {
 /* <!-- protofilo part end --> */
 
 /* articles part start */
-.articles h1,
-p {
+.articles h1
+{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 70px;
     font-size: 30px;
 }
-
-.articles p {
-    margin: 0 0;
-    background-color: #ffffff;
+.articles p8{
+   margin:0 39%;
 }
-
 .orap {
     display: flex;
 }
@@ -453,43 +450,71 @@ h6 {
 
 /* last email part start */
 .right {
-    background-image: url(https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_night_198337_1920x1080.jpg);
-    height: 350px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/06/13/21/blue-2721435_960_720.jpg);
     margin-top: 50px;
+    
 }
 .right{
     display: flex;
 }
 .list{
    padding-top: 60px;
-    margin-left: 35%;
-    color: #ff0000;
-    font-size: 20px;
-    text-decoration: underline;
+    margin-left: 20%;
+    color: #ffffff;
+    font-size: 30px;
+   
 }
 .list a{
     text-decoration: none;
-    color: #ff0303;
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 30px;
 }
 .l01 a{
     text-decoration: none;
-    color: #ff0303;
-    font-size: 20px;   
+    color: #ffffff;
+    font-size: 30px;   
 }
 .l02 a{
     text-decoration: none;
-    color: #ff0303;
-    font-size: 20px; 
+    color: #ffffff;
+    font-size: 30px; 
 }
+
+/* form */
 .list2{
-    padding-top: 60px;
-    margin-left: 10%;
-    color: #ff0000;
+    padding: 16px 350px;
+    color:#ffffff;
     font-size: 20px;
-    
 }
-.list2 form{
-    text-decoration: underline;
-}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
 /* last email part end */
